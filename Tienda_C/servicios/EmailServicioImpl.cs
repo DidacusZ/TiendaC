@@ -8,8 +8,8 @@ namespace Tienda_C.servicios
     /// </summary>
     public class EmailServicioImpl : EmailServicioInterfaz
     {
-        const string EMAIL_ORIGEN = "diegozkw21@gmail.com";
-        const string CLAVE_ORIGEN = "odcg kgek zvkq jalm";
+        const string EMAIL_ORIGEN = "";
+        const string CLAVE_ORIGEN = "";
         const string URL_DOMINIO = "http://localhost:5266";
         public void EmailCambioClave(string emailDestino, string nombreUsuario, string token)
         {

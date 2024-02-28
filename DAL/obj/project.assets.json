@@ -2300,11 +2300,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\clase\\Desktop\\Pruebas\\TiendaC\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\DAL\\DAL.csproj",
+      "projectPath": "C:\\Users\\clase\\Desktop\\Pruebas\\TiendaC\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\clase\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\DAL\\obj\\",
+      "outputPath": "C:\\Users\\clase\\Desktop\\Pruebas\\TiendaC\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -53,8 +53,8 @@ namespace Tienda_C
 
             var ejecutarScript = new EjecutarScriptSQL();
 
-            //descomentar esta linea si se quiere ejecutar el script
-            //ejecutarScript.EjecutarScript(connectionString, scriptPath);
+            //descomentar o comentar esta linea. Para ejecutar script con datos de prueba
+            ejecutarScript.EjecutarScript(connectionString, scriptPath);
 
 
             // Configure the HTTP request pipeline.

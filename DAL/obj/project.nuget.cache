@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eknMa38DU6+KnZzbKQ6RwmPHOGccdwM7+WBdGRmBw0b4SiS31RbEjpIri25aSyMoUepy+nLV0Fre3ikZn256/Q==",
+  "dgSpecHash": "Tk1nAwD00+Dsc8dDiCi81GP/XXucwGUPIgBiAbEA0Rjr63GqJySkRWqodaGt7S7PazoONLVMvfuSmxkhlwT/pQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\DAL\\DAL.csproj",
+  "projectFilePath": "C:\\Users\\clase\\Desktop\\Pruebas\\TiendaC\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\clase\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\clase\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
