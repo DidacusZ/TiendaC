@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15CA2951-0A69-46F9-822A-6AEB516BD66C}|Tienda_C\\Tienda_C.csproj|c:\\users\\clase\\desktop\\versiones c#\\nuevo proyect\\tienda_c version buena\\tienda_c\\controllers\\cambiarclavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CA2951-0A69-46F9-822A-6AEB516BD66C}|Tienda_C\\Tienda_C.csproj|solutionrelative:tienda_c\\controllers\\cambiarclavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CA2951-0A69-46F9-822A-6AEB516BD66C}|Tienda_C\\Tienda_C.csproj|c:\\users\\clase\\desktop\\versiones c#\\nuevo proyect\\tienda_c version buena\\tienda_c\\views\\credenciales\\cambiarclave.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CA2951-0A69-46F9-822A-6AEB516BD66C}|Tienda_C\\Tienda_C.csproj|solutionrelative:tienda_c\\views\\credenciales\\cambiarclave.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CA2951-0A69-46F9-822A-6AEB516BD66C}|Tienda_C\\Tienda_C.csproj|c:\\users\\clase\\desktop\\versiones c#\\nuevo proyect\\tienda_c version buena\\tienda_c\\controllers\\iniciosesioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CA2951-0A69-46F9-822A-6AEB516BD66C}|Tienda_C\\Tienda_C.csproj|solutionrelative:tienda_c\\controllers\\iniciosesioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CA2951-0A69-46F9-822A-6AEB516BD66C}|Tienda_C\\Tienda_C.csproj|c:\\users\\clase\\desktop\\versiones c#\\nuevo proyect\\tienda_c version buena\\tienda_c\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CA2951-0A69-46F9-822A-6AEB516BD66C}|Tienda_C\\Tienda_C.csproj|solutionrelative:tienda_c\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CA2951-0A69-46F9-822A-6AEB516BD66C}|Tienda_C\\Tienda_C.csproj|c:\\users\\clase\\desktop\\versiones c#\\nuevo proyect\\tienda_c version buena\\tienda_c\\ejecutarscriptsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CA2951-0A69-46F9-822A-6AEB516BD66C}|Tienda_C\\Tienda_C.csproj|solutionrelative:tienda_c\\ejecutarscriptsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CA2951-0A69-46F9-822A-6AEB516BD66C}|Tienda_C\\Tienda_C.csproj|c:\\users\\clase\\desktop\\versiones c#\\nuevo proyect\\tienda_c version buena\\tienda_c\\servicios\\usuariodaoadtoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CA2951-0A69-46F9-822A-6AEB516BD66C}|Tienda_C\\Tienda_C.csproj|solutionrelative:tienda_c\\servicios\\usuariodaoadtoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CA2951-0A69-46F9-822A-6AEB516BD66C}|Tienda_C\\Tienda_C.csproj|c:\\users\\clase\\desktop\\versiones c#\\nuevo proyect\\tienda_c version buena\\tienda_c\\servicios\\usuariodtoadaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CA2951-0A69-46F9-822A-6AEB516BD66C}|Tienda_C\\Tienda_C.csproj|solutionrelative:tienda_c\\servicios\\usuariodtoadaoimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CA2951-0A69-46F9-822A-6AEB516BD66C}|Tienda_C\\Tienda_C.csproj|c:\\users\\clase\\desktop\\versiones c#\\nuevo proyect\\tienda_c version buena\\tienda_c\\fichero\\ficherolog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CA2951-0A69-46F9-822A-6AEB516BD66C}|Tienda_C\\Tienda_C.csproj|solutionrelative:tienda_c\\fichero\\ficherolog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CA2951-0A69-46F9-822A-6AEB516BD66C}|Tienda_C\\Tienda_C.csproj|c:\\users\\clase\\desktop\\versiones c#\\nuevo proyect\\tienda_c version buena\\tienda_c\\controllers\\administracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CA2951-0A69-46F9-822A-6AEB516BD66C}|Tienda_C\\Tienda_C.csproj|solutionrelative:tienda_c\\controllers\\administracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CA2951-0A69-46F9-822A-6AEB516BD66C}|Tienda_C\\Tienda_C.csproj|c:\\users\\clase\\desktop\\versiones c#\\nuevo proyect\\tienda_c version buena\\tienda_c\\views\\privada\\editarusuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CA2951-0A69-46F9-822A-6AEB516BD66C}|Tienda_C\\Tienda_C.csproj|solutionrelative:tienda_c\\views\\privada\\editarusuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CA2951-0A69-46F9-822A-6AEB516BD66C}|Tienda_C\\Tienda_C.csproj|c:\\users\\clase\\desktop\\versiones c#\\nuevo proyect\\tienda_c version buena\\tienda_c\\servicios\\imagenserviciointerfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CA2951-0A69-46F9-822A-6AEB516BD66C}|Tienda_C\\Tienda_C.csproj|solutionrelative:tienda_c\\servicios\\imagenserviciointerfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CA2951-0A69-46F9-822A-6AEB516BD66C}|Tienda_C\\Tienda_C.csproj|c:\\users\\clase\\desktop\\versiones c#\\nuevo proyect\\tienda_c version buena\\tienda_c\\servicios\\imagenservicioimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CA2951-0A69-46F9-822A-6AEB516BD66C}|Tienda_C\\Tienda_C.csproj|solutionrelative:tienda_c\\servicios\\imagenservicioimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cambiarClave.cshtml",
+              "DocumentMoniker": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\Tienda_C\\Views\\credenciales\\cambiarClave.cshtml",
+              "RelativeDocumentMoniker": "Tienda_C\\Views\\credenciales\\cambiarClave.cshtml",
+              "ToolTip": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\Tienda_C\\Views\\credenciales\\cambiarClave.cshtml",
+              "RelativeToolTip": "Tienda_C\\Views\\credenciales\\cambiarClave.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-28T08:49:56.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CambiarClaveController.cs",
+              "DocumentMoniker": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\Tienda_C\\Controllers\\CambiarClaveController.cs",
+              "RelativeDocumentMoniker": "Tienda_C\\Controllers\\CambiarClaveController.cs",
+              "ToolTip": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\Tienda_C\\Controllers\\CambiarClaveController.cs",
+              "RelativeToolTip": "Tienda_C\\Controllers\\CambiarClaveController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwB8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T08:27:44.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsuarioDTOaDAOImpl.cs",
+              "DocumentMoniker": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\Tienda_C\\servicios\\UsuarioDTOaDAOImpl.cs",
+              "RelativeDocumentMoniker": "Tienda_C\\servicios\\UsuarioDTOaDAOImpl.cs",
+              "ToolTip": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\Tienda_C\\servicios\\UsuarioDTOaDAOImpl.cs",
+              "RelativeToolTip": "Tienda_C\\servicios\\UsuarioDTOaDAOImpl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T08:40:28.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioDAOaDTOImpl.cs",
+              "DocumentMoniker": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\Tienda_C\\servicios\\UsuarioDAOaDTOImpl.cs",
+              "RelativeDocumentMoniker": "Tienda_C\\servicios\\UsuarioDAOaDTOImpl.cs",
+              "ToolTip": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\Tienda_C\\servicios\\UsuarioDAOaDTOImpl.cs",
+              "RelativeToolTip": "Tienda_C\\servicios\\UsuarioDAOaDTOImpl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T08:40:27.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\Tienda_C\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Tienda_C\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\Tienda_C\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Tienda_C\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC8AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-28T07:18:12.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EjecutarScriptSQL.cs",
+              "DocumentMoniker": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\Tienda_C\\EjecutarScriptSQL.cs",
+              "RelativeDocumentMoniker": "Tienda_C\\EjecutarScriptSQL.cs",
+              "ToolTip": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\Tienda_C\\EjecutarScriptSQL.cs",
+              "RelativeToolTip": "Tienda_C\\EjecutarScriptSQL.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAiwCQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T07:52:50.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FicheroLog.cs",
+              "DocumentMoniker": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\Tienda_C\\Fichero\\FicheroLog.cs",
+              "RelativeDocumentMoniker": "Tienda_C\\Fichero\\FicheroLog.cs",
+              "ToolTip": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\Tienda_C\\Fichero\\FicheroLog.cs",
+              "RelativeToolTip": "Tienda_C\\Fichero\\FicheroLog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T08:00:28.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InicioSesionController.cs",
+              "DocumentMoniker": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\Tienda_C\\Controllers\\InicioSesionController.cs",
+              "RelativeDocumentMoniker": "Tienda_C\\Controllers\\InicioSesionController.cs",
+              "ToolTip": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\Tienda_C\\Controllers\\InicioSesionController.cs",
+              "RelativeToolTip": "Tienda_C\\Controllers\\InicioSesionController.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAcwG0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T07:16:33.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdministracionController.cs",
+              "DocumentMoniker": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\Tienda_C\\Controllers\\AdministracionController.cs",
+              "RelativeDocumentMoniker": "Tienda_C\\Controllers\\AdministracionController.cs",
+              "ToolTip": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\Tienda_C\\Controllers\\AdministracionController.cs",
+              "RelativeToolTip": "Tienda_C\\Controllers\\AdministracionController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T06:56:08.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ImagenServicioInterfaz.cs",
+              "DocumentMoniker": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\Tienda_C\\servicios\\ImagenServicioInterfaz.cs",
+              "RelativeDocumentMoniker": "Tienda_C\\servicios\\ImagenServicioInterfaz.cs",
+              "ToolTip": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\Tienda_C\\servicios\\ImagenServicioInterfaz.cs",
+              "RelativeToolTip": "Tienda_C\\servicios\\ImagenServicioInterfaz.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T06:53:01.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ImagenServicioImpl.cs",
+              "DocumentMoniker": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\Tienda_C\\servicios\\ImagenServicioImpl.cs",
+              "RelativeDocumentMoniker": "Tienda_C\\servicios\\ImagenServicioImpl.cs",
+              "ToolTip": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\Tienda_C\\servicios\\ImagenServicioImpl.cs",
+              "RelativeToolTip": "Tienda_C\\servicios\\ImagenServicioImpl.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T06:48:52.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "editarUsuario.cshtml",
+              "DocumentMoniker": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\Tienda_C\\Views\\privada\\editarUsuario.cshtml",
+              "RelativeDocumentMoniker": "Tienda_C\\Views\\privada\\editarUsuario.cshtml",
+              "ToolTip": "C:\\Users\\clase\\Desktop\\Versiones C#\\nuevo Proyect\\Tienda_C version buena\\Tienda_C\\Views\\privada\\editarUsuario.cshtml",
+              "RelativeToolTip": "Tienda_C\\Views\\privada\\editarUsuario.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAE8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-28T03:15:41.497Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

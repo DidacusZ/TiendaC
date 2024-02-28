@@ -1,0 +1,113 @@
+﻿@{
+    ViewData["Title"] = "Iniciar sesión";
+    var mensajeRegistroExitoso = ViewData["MensajeRegistroExitoso"] as string;
+    var cuentaVerificada = ViewData["CuentaVerificada"] as string;
+    var cuentaNoVerificada = ViewData["EmailNoConfirmado"] as string;
+    var yaEstabaVerificada = ViewData["yaEstabaVerificada"] as string;
+    var mensajeExitoMail = ViewData["MensajeExitoMail"] as string;
+    var contraseñaModificada = ViewData["ContraseñaModificadaExito"] as string;
+    var mensajeErrorInicioSesion = ViewData["MensajeErrorInicioSesion"] as string;
+    var recursoProhibido = ViewData["RecursoProhibido"] as string;
+    var error = ViewData["error"] as string;
+}
+
+<div class="pt-5 pb-5 mt-0 align-items-center d-flex">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center d-flex-row text-center h-100">
+
+            <div class="col-xl-4 col-lg-5 col-md-6 col-sm-6 col-9">
+                <div class="card shadow">
+                    <div class="card-body">
+
+                        <h4 class="card-title mt-0 text-center mb-4">Iniciar Sesión</h4>
+
+                        <form method="post" asp-for="UsuarioDTO" asp-action="InicioSesionPost" asp-controller="InicioSesion">
+                            <div class="form-group input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Email:</span>
+                                </div>
+                                <input name="email_usuario" class="form-control" placeholder="Email" type="email" required>
+                            </div>
+
+                            <div class="form-group input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Contraseña:</span>
+                                </div>
+                                <input name="clv_usuario" class="form-control" placeholder="Contraseña" type="password" required>
+                            </div>
+
+                            <div class="form-group mb-2 d-grid">
+                                <button type="submit" class="btn btn-primary btn-block"> Iniciar Sesión </button>
+                            </div>
+
+                            <p class="text-center">
+                                ¿Has olvidado tu contraseña?
+                                <a href="/credenciales/SolicitarCambiarClave">Cambiar contraseña</a>
+                            </p>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+@if (!string.IsNullOrEmpty(mensajeRegistroExitoso))
+{
+    <script>
+        alert("Email de confirmación enviado");
+    </script>
+}
+
+@if (!string.IsNullOrEmpty(cuentaVerificada))
+{
+    <script>
+        alert("Tu cuenta ya esta confirmada");
+    </script>
+}
+@if (!string.IsNullOrEmpty(cuentaNoVerificada))
+{
+    <script>
+        alert("Aún no a confirmado su cuenta, revise su correo");
+    </script>
+}
+@if (!string.IsNullOrEmpty(mensajeExitoMail))
+{
+    <script>
+        alert("Email de recuperación enviado");
+    </script>
+}
+@if (!string.IsNullOrEmpty(yaEstabaVerificada))
+{
+    <script>
+        alert("Tu cuenta está confirmada y registrada");
+    </script>
+}
+@if (!string.IsNullOrEmpty(contraseñaModificada))
+{
+    <script>
+        alert("Contraseña modificada correctamente");
+    </script>
+}
+@if (!string.IsNullOrEmpty(mensajeErrorInicioSesion))
+{
+    <script>
+        alert("El email o contraseña introducidos son incorrectos");
+    </script>
+}
+@if (!string.IsNullOrEmpty(recursoProhibido))
+{
+    <script>
+        alert("No tienes permiso para acceder");
+    </script>
+}
+@if (!string.IsNullOrEmpty(error))
+{
+    <script>
+        alert("Ha habido un Error");
+    </script>
+}
+
+
+

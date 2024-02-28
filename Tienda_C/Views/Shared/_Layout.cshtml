@@ -1,0 +1,98 @@
+﻿@{
+    var currentController = ViewContext.RouteData.Values["controller"] as string;//nombre controlador actual
+    var currentAction = ViewContext.RouteData.Values["action"] as string;//nombre acción actual
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Tienda_C</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Tienda_C.styles.css" asp-append-version="true" />
+    <script src="~/js/site.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <div class="container-fluid">
+
+                <a class="navbar-brand">Tienda de Gorras</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        @if (currentController == "Home" && currentAction == "Index")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="/credenciales/InicioSesion">Iniciar Sesión</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/credenciales/registro">Registrarse</a>
+                            </li>
+                        }
+                        @if ((currentController == "InicioSesion" && currentAction == "InicioSesionGet") || (currentController == "InicioSesion" && currentAction == "InicioSesionPost"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="/credenciales/registro">Registrarse</a>
+                            </li>
+                        }
+                        @if ((currentController == "Registro" && currentAction == "RegistroGet") || (currentController == "SolicitarCambiarClave" && currentAction == "SolicitarCambiarClaveGet")
+                        || (currentController == "SolicitarCambiarClave" && currentAction == "SolicitarCambiarClavePost") || (currentController == "CambiarClave" && currentAction == "CambiarClaveGet") || (currentController == "CambiarClave" && currentAction == "CambiarClavePost")
+                        || (currentController == "InicioSesion" && currentAction == "ConfirmarCuenta"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="/credenciales/InicioSesion">Iniciar Sesión</a>
+                            </li>
+                        }
+
+                        @if (User.IsInRole("ROLE_ADMIN") && !(currentController == "Administracion" && currentAction == "Administracion") && !(currentAction == "EliminarUsuario")
+                        && !(currentAction == "EditarUsuarioPost") && !(currentAction == "CrearcuentaPost"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="/privada/administracion">Administración</a>
+                            </li>
+                        }
+
+                        @if((currentController == "Administracion" && currentAction == "Administracion") || (currentAction == "EditarUsuarioPost") || (currentAction == "EditarUsuarioGet")
+                        ||
+                        (currentAction == "EliminarUsuario") || (currentAction == "CrearcuentaGet") || (currentAction == "CrearcuentaPost"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="/privada/bienvenida">Inicio</a>
+                            </li>
+                        }
+
+
+
+                    </ul>
+                    @if ((currentController == "InicioSesion" && currentAction == "Bienvenida") || (currentController == "Administracion"))
+                    {
+                        <form class="d-flex" asp-action="CerrarSesion" asp-controller="InicioSesion" method="get" id="cerrarSesion">
+                            <button class="btn btn-danger" type="button" onclick="cerrarSesion()">Cerrar Sesión</button>
+                        </form>
+                    }
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+﻿@model Tienda_C.dto.UsuarioDTO// Define el modelo que será utilizado en la vista
+
+@{
+    ViewData["Title"] = "Registro"; // Establece el título de la vista
+    var emailYaRegistrado = ViewData["EmailRepetido"] as string; // Obtiene el valor asociado a la clave "EmailRepetido" en el ViewData y lo convierte a tipo string
+    var esRegistroDeAdmin = ViewData["esRegistroDeAdmin"] as bool?; // Obtiene el valor asociado a la clave "esRegistroDeAdmin" en el ViewData y lo convierte a tipo bool nullable
+    var error = ViewData["error"] as string; // Obtiene el valor asociado a la clave "error" en el ViewData y lo convierte a tipo string
+
+
+
+    string controlador = "Registro";
+    string action = "RegistrarPost";
+    // Verifica si esRegistroDeAdmin tiene un valor y si ese valor es true
+
+    if (esRegistroDeAdmin.HasValue && esRegistroDeAdmin.Value)
+    {
+        controlador = "Administracion";
+        action = "CrearcuentaPost";
+    }
+
+}
+
+
+<div class="pt-5 pb-5 mt-0 align-items-center d-flex">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center d-flex-row text-center h-100">
+
+            <div class="col-xl-4 col-lg-5 col-md-6 col-sm-6 col-9">
+                <div class="card shadow">
+                    <div class="card-body">
+
+                        <h4 class="card-title mt-0 text-center mb-4">Crear Cuenta</h4>
+
+                        <form method="post" asp-for="UsuarioDTO" asp-action="@action" asp-controller="@controlador">
+                            <div class="alert alert-info" role="alert">Se le enviará un email con las instrucciones para confirmar su cuenta</div>
+
+                            <div class="form-group input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Nombre completo:</span>
+                                </div>
+                                <input name="nom_usuario" class="form-control" placeholder="Nombre completo" type="text" required>
+                                <!-- mismo nombre que el dto-->
+                            </div>
+
+                            <div class="form-group input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Movil:</span>
+                                </div>
+                                <input name="mvl_usuario" class="form-control" placeholder="Movil" type="text" required>
+                            </div>
+
+                            <!-- se permiten imagenes de cualquier tipo -->
+                            <!--
+                            <div class="form-group input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Foto:</span>
+                                  </div>
+                                <input namm="img_usuario" class="form-control" placeholder="Foto (opcional)" type="file" accept="image/*">
+                            </div>
+                             -->
+
+
+                            <div class="form-group input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Email:</span>
+                                </div>
+                                <input name="email_usuario" class="form-control" placeholder="Email" type="email" required>
+                            </div>
+
+                            <div class="form-group input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Contraseña:</span>
+                                </div>
+                                <input name="clv_usuario" id="clave" oninput="revisarContraseña()" class="form-control" placeholder="Contraseña" type="password" required>
+                            </div>
+                            <div class="form-group input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Contraseña:</span>
+                                </div>
+                                <input id="clave2" oninput="revisarContraseña()" class="form-control" placeholder="Repetir Contraseña" type="password" required>
+                            </div>
+
+                            @if (User.IsInRole("ROLE_ADMIN"))
+                            {
+                                <div class="form-group input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">Confirmar cuenta:</span>
+                                    </div>
+                                    <div class="form-check" style="font-size: 25px;margin-left: 6px;">
+                                        <input class="form-check-input" name="cuenta_confirmada" type="checkbox" value="true" style="transform: scale(1.5);">
+                                    </div>
+                                </div>
+
+                            }
+
+
+                            <div id="mensajeClave"></div>
+
+                            <div class="mt-3 form-group d-grid">
+                                <button id="boton" type="submit" class="btn btn-primary btn-block"> Crear cuenta </button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+@if (!string.IsNullOrEmpty(emailYaRegistrado))
+{
+    <script>
+        alert("Email ya en uso, porfavor introduzca otro");
+    </script>
+}
+@if (!string.IsNullOrEmpty(error))
+{
+    <script>
+        alert("Ha habido un Error");
+    </script>
+}

@@ -1,0 +1,31 @@
+﻿@model Tienda_C.dto.UsuarioDTO
+@{
+    ViewData["Title"] = "Bienvenida";
+    var noAdmin = ViewData["noAdmin"] as string;
+    var noSePuedeEliminar = ViewData["noSePuedeEliminar"] as string;
+    var error = ViewData["error"] as string;
+}
+
+<h1>Bienvenido a la tienda de gorras</h1>
+<h3>Actualmente solo disponemos de una versión con la capa administración</h3>
+
+
+
+@if (!string.IsNullOrEmpty(noAdmin))
+{
+    <script>
+        alert("No tienes permiso para acceder");
+    </script>
+}
+@if (!string.IsNullOrEmpty(noSePuedeEliminar))
+{
+    <script>
+        alert("No se puede eliminar admin");
+    </script>
+}
+@if (!string.IsNullOrEmpty(error))
+{
+    <script>
+        alert("Ha habido un Error");
+    </script>
+}

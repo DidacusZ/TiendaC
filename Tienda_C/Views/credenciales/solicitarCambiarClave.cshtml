@@ -1,0 +1,73 @@
+﻿@model Tienda_C.dto.UsuarioDTO
+@{
+    ViewData["Title"] = "Solicitar cambiar clave";
+    var mensajeErrorEmail = ViewData["MensajeErrorMail"] as string;
+    var contraseñaModificadaError = ViewData["ContraseñaModificadaError"] as string;
+    var mensajeErrorTokenValidez = ViewData["MensajeErrorTokenValidez"] as string;
+    var mensajeErrorTokenExpirado = ViewData["MensajeErrorTokenExpirado"] as string;
+    var error = ViewData["error"] as string;
+}
+
+
+<div class="pt-5 pb-5 mt-0 align-items-center d-flex">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center d-flex-row text-center h-100">
+
+            <div class="col-xl-4 col-lg-5 col-md-6 col-sm-6 col-9">
+                <div class="card shadow">
+                    <div class="card-body">
+
+                        <h4 class="card-title mt-0 text-center mb-4">Solicitar Cambiar Contraseña</h4>
+
+                        <form method="post" asp-action="SolicitarCambiarClavePost">
+                            <!-- asp-controller="SolicitarCambiarClave"> -->
+                            <div class="form-group input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Email:</span>
+                                </div>
+                                <input name="email_usuario" class="form-control" placeholder="Email" type="email" required>
+                            </div>
+
+                            <div class="form-group mb-2 d-grid">
+                                <button type="submit" class="btn btn-primary btn-block"> Solicitar cambiar </button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</div>
+@if (!string.IsNullOrEmpty(contraseñaModificadaError))
+{
+    <script>
+        alert("Error al cambiar la contraseña");
+    </script>
+}
+@if (!string.IsNullOrEmpty(mensajeErrorEmail))
+{
+    <script>
+        alert("Este correo electronico no esta registrado");
+    </script>
+}
+@if (!string.IsNullOrEmpty(mensajeErrorTokenValidez))
+{
+    <script>
+        alert("Enlace incorrecto, vuelva a pedir el cambio de contraseña");
+    </script>
+}
+@if (!string.IsNullOrEmpty(mensajeErrorTokenExpirado))
+{
+    <script>
+        alert("Enlace caducado, vuelva a pedir el cambio de contraseña");
+    </script>
+}
+@if (!string.IsNullOrEmpty(error))
+{
+    <script>
+        alert("Ha habido un Error");
+    </script>
+}
